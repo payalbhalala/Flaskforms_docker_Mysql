@@ -15,3 +15,6 @@ This project contains information about flask forms introduction.
 
 # My data homepage displaying in browser
 ![Own data homepage in browser](Screenshots/homepageofdata_inbrowser.png)
+
+# Viewing one record in browser
+![One of the record viewed in browser](Screenshots/viewofonerecord.png)
