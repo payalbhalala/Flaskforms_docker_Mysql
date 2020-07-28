@@ -18,3 +18,6 @@ This project contains information about flask forms introduction.
 
 # Viewing one record in browser
 ![One of the record viewed in browser](Screenshots/viewofonerecord.png)
+
+# Added new record
+![Added new record in browser](Screenshots/addednewrecord.png)
