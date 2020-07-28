@@ -1,10 +1,10 @@
 {% extends "layout.html" %}
 {% block content %}
-<form action="/edit/{{Name}}" method="post">
+<form action="/edit/{{Player.Name}}" method="post">
     <div class="row">
         <div class="col">
             <label for="Name">Player Name</label>
-            <input id="Name" type="text" class="form-control" placeholder="Player Name" name="Name" value="{{player.Name}}">
+            <input id="Name" type="text" class="form-control" placeholder="Player Name" name="Name" value="{{Player.Name}}">
         </div>
         <div class="col">
             <label for="Position">Player Position</label>
@@ -19,22 +19,21 @@
 
     <div class="row">
         <div class="col">
-            <label for="Height">Player Height</label>
-            <input id="Height" type="text" class="form-control" placeholder="Player Height" name="Height" value="{{Player.Height}}">
+            <label for="Height_inches">Player Height_inches</label>
+            <input id="Height_inches" type="text" class="form-control" placeholder="Player Height_inches" name="Height_inches" value="{{Player.Height_inches}}">
         </div>
         <div class="col">
-            <label for="Weight">Player Weight</label>
-            <input id="Weight" type="text" class="form-control" placeholder="Player Weight" name="Weight" value="{{Player.Weight}}">
+            <label for="Weight_lbs">Player Weight_lbs</label>
+            <input id="Weight_lbs" type="text" class="form-control" placeholder="Player Weight_lbs" name="Weight_lbs" value="{{Player.Weight_lbs}}">
         </div>
     </div>
     <div class="row">
         <div class="col">
             <label for="Age">Player Age</label>
-
             <input id="Age" type="text" class="form-control" placeholder="Age"
-                   name="Age" value="{{Player Age}}">
-        <
+                   name="Age" value="{{Player.Age}}">
+        </div>
+    </div>
     <button type="submit" class="btn btn-success">Save</button>
-
 </form>
 {% endblock %}
