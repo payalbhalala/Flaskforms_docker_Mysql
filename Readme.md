@@ -1,14 +1,8 @@
 # Project Description
 This project contains information about flask forms introduction.
 
-# SQL Data Screenshot
-![pycharm sql data](Screenshots/tblcities.png)
-
 # Postman Screenshot
 ![pycharm postman request](Screenshots/postman.png)
-
-# Flask and Bootstrap screenshot
-![pycharm table format bootstrap](Screenshots/Flask_bootstrap.png)
 
 # My data table in Pycharm
 ![Own datatable running in pycharm](Screenshots/datatable_in_pycharm.png)
@@ -21,3 +15,12 @@ This project contains information about flask forms introduction.
 
 # Added new record
 ![Added new record in browser](Screenshots/addednewrecord.png)
+
+# Delete new record
+![Deleted the new record that was added before](Screenshots/Deletedrecord.png)
+
+# Edited the added record
+![Edited the record that was added before](Screenshots/Editedrecord.png)
+
+
+
